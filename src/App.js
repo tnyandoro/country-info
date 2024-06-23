@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+import Countries from './components/Countries'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="bg-primary text-white p-2">
+        <h1>Countries list</h1>
       </header>
+      <div className="container mt-5">
+      <h5 className="card-title">Country Information</h5>
+      <p className="card-text">
+        View full list of countries, search country by alpha codes and filter by currency.
+      </p>
+      <Countries />
+      </div>
     </div>
   );
 }
