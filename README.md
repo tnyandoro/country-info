@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Country Information codes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Description:**
+The company has a need for a standardised internal source of country information. Using Ruby or Python and one of the accompanying technologies, Rails, Django or React to complete the requirements below.
 
-## Available Scripts
+Requirements:
 
-In the project directory, you can run:
+List all countries providing at least country name, alpha 2 code, alpha 3 code and the currencies available. Please allow for the ability to filter on currency.
 
-### `npm start`
+Return a single country based upon the alpha 2 or alpha 3 code
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+An interface to allow “soft-deletion” of countries.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Built with:**
 
-### `npm test`
+- Frontend: React
+- Backend: Rails
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Technologies used:**
 
-### `npm run build`
+- ReactJS/Redux
+- EcmaScript 6
+- Bootstrap
+- react-test-renderer
+- react-testing-library
+- buildpack
+- PostgreSQL
+- react-router-dom
+- axios
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Project Links:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**API:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Country Info API](https://github.com/tnyandoro/country-info-api) (Link to API repository)
 
-### `npm run eject`
+**Project Setup:**
+You can clone the project on your local machine by running:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+git clone <https://github.com/tnyandoro/country-info.git>
+cd the-gentleman-app
+npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Author:**
+- Tendai Nyandoro
+  - Github: [@Tendai Nyandoro](https://github.com/tnyandoro)
+  - Linkedin: [Linkedin Profile](https://linkedin.com)
+  - Twitter: [@Twitter](https://twitter.com)

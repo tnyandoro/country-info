@@ -1,5 +1,6 @@
-import Countries from './components/Countries'
-import Search from './components/Search'
+import React from 'react';
+import Countries from './components/Countries/country'
+import Search from './components/Search/search'
 
 function App() {
   return (
